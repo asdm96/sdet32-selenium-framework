@@ -6,9 +6,25 @@
       <class name="com.crm.autodesk.organizationTest.CreateOrganizationWithIndustryTest"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="Test-runner 2">
+  <test thread-count="7" name="Test-runner 2">
     <classes>
       <class name="com.crm.autodesk.contactTest.CreateContactTest"/>
     </classes>
   </test> <!-- Test -->
+  <test thread-count="7" name="Test-runner 3">
+    <classes>
+      <class name="com.crm.autodesk.organizationTest.CreateOrganizationWithIndustryTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="7" name="Test-runner 1">
+    <classes>
+      <class name="com.crm.autodesk.organizationTest.CreateOrganizationWithIndustryTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test-runner 4">
+    <classes>
+      <class name="com.crm.autodesk.organizationTest.CreateOrganizationWithIndustryTest"/>
+    </classes>
+  </test> <!-- Test -->
+ 
 </suite> <!-- Suite -->

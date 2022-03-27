@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.crm.autodesk.objectRepository.HomePage;
@@ -38,7 +39,7 @@ public class BaseClass {
 	}
 	@Parameters("browser")
 	@BeforeClass(groups = {"smokeTest","regressionTest"})
-	public void bc(String browserName) throws Throwable {
+	public void bc(@Optional("chrome")String browserName) throws Throwable {
 		//String browserName = fUtil.getPropertyFileData("browser");
 		String url=fUtil.getPropertyFileData("url");
 		if(browserName.equals("chrome")) {

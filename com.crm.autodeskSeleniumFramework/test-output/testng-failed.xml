@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.AssertionsTest">
+      <class name="practice.RetryimpClass">
         <methods>
-          <include name="demo"/>
+          <include name="create"/>
         </methods>
-      </class> <!-- practice.AssertionsTest -->
+      </class> <!-- practice.RetryimpClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
